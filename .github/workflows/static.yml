@@ -16,7 +16,7 @@ jobs:
     steps:
       # Step 1: Checkout repository code
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       # Step 2: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
